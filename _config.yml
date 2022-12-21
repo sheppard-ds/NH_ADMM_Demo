@@ -1,8 +1,5 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Demonstration of ADMM
+description: This site is a demonstration page of how National Highways could publish and maintain its Asset Data Managment Manual (ADMM)
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+url: https://sheppard-ds.github.io/NH_ADMM_Demo/
