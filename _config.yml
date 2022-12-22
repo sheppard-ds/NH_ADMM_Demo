@@ -1,5 +1,8 @@
 title: Demonstration of ADMM
 description: This site is a demonstration page of how National Highways could publish and maintain its Asset Data Managment Manual (ADMM)
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "nil"
+search_enabled: true
+heading_anchors: true
 
 url: https://sheppard-ds.github.io/NH_ADMM_Demo/
