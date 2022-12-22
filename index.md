@@ -1,30 +1,37 @@
 ---
 title: Home
-layout: home
+has_children: true
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# NH Assets Introduction
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+This is an intial demo of how the ADMM of National Highways could be displayed using GitHub Pages with example templates showing Assets entries; including a description, their sub-class, asset and componenets (where applicable).
 
-More specifically, the created site:
+## 
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+This is version 0.1, created 22 December 2022
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## NH Data Assets 
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+The following is taken from the [Standards for Highways Website](https://standardsforhighways.co.uk/ha/standards/admm/index.htm)
 
-To get started with creating a site, just click "[use this template]"!
+For each asset entry there is:
 
-----
+- Asset Class Hierarchy – an overview of the asset class hierarchy. This takes on of the following forms:
+    - Asset Class – Asset Subclass – Asset
+    - Asset-Component Relationship
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+For each asset entry (excluding Drainage, Roadside Operational Technology and Structures asset classes):
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+- Description – a textual description detailing the asset, matching the description found in the Data Dictionary.
+
+- An example image – a generic example image demonstrating the asset (this may be further highlighted to specify the asset in context).
+
+- Asset Code – the four-digit code, referencing the asset within the Data Dictionary.
+
+- Asset Class/Subclass –the class and subclass the asset belongs to, indicative of its relationship to a group of other assets as set out in the Data Dictionary, and the relevant procedures, rules, and personnel.
+
+- Asset Geometry – i.e. Point, Line, or Polygon: this corresponds to the geospatial reference data for the asset and gives an idea of the space it occupies in the real world.
+    - Assets that occupy a single location are considered Point (e.g. Sign Face, Reference Marker Locations, Bollards, etc.)
+
