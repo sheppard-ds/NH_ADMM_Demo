@@ -2,6 +2,8 @@
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
+This is a test line - to check for branch capability
+
 - uses the [Just the Docs] theme;
 - can be built and published on [GitHub Pages];
 - can be built and previewed locally, and published on other platforms.
