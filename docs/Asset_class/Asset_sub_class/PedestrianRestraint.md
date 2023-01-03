@@ -3,7 +3,6 @@ layout: default
 title: Pedestrian Restraint
 nav_order: 1
 Parent: Road Restraint
-categories: Asset Sub-Class
 ---
 
 # Pedestrian Restraint

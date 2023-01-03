@@ -3,7 +3,6 @@ layout: default
 title: Road Restraint
 nav_order: 2
 has_children: true
-categories: Asset Class
 ---
 
 # Road Restraint

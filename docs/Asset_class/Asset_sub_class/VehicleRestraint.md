@@ -4,7 +4,6 @@ title: Vehicle Restraint
 nav_order: 2
 Parent: Road Restraint
 has_children: true
-categories: Asset Sub-Class
 ---
 
 # Vehicle Restraint
