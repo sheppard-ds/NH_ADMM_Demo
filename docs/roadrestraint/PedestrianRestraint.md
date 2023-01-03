@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Pedestrian Restraint
-nav_order: 1
-Parent: Road Restraint
+nav_order: 2
+parent: Road Restraint
 ---
 
 # Pedestrian Restraint
