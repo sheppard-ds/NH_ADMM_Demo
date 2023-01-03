@@ -4,7 +4,6 @@ title: Home
 nav_order: 1
 has_children: true
 ---
-
 # NH Assets Introduction
 
 This is an intial demo of how the ADMM of National Highways could be displayed using GitHub Pages with example templates showing Assets entries; including a description, their sub-class, asset and componenets (where applicable).
