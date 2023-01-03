@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Component Template
-parent: Home
 nav_order: 2
 ---
 # Component Templating
