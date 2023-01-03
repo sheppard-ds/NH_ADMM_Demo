@@ -1,5 +1,5 @@
-title: Demonstration of ADMM
-description: This site is a demonstration page of how National Highways could publish and maintain its Asset Data Managment Manual (ADMM)
-theme: just-the-docs
-
-url: https://sheppard-ds.github.io/NH_ADMM_Demo/
+title: Just the Docs Template
+description: A starter template for a Jeykll site using the Just the Docs theme!
+remote_theme: just-the-docs/just-the-docs
+baseurl: "NH_ADMM_Demo"
+url: https://sheppard-ds.github.io/

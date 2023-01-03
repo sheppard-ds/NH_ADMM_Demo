@@ -2,8 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "An introduction to the purpose of this site"
-permalink: /
+has_children: true
 ---
 
 # NH Assets Introduction
