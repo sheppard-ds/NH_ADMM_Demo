@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Crash Cushion
-nav_order: 2
 parent: Vehicle Restraint
 grand_parent: Road Restraint
+nav_order: 2
 ---
 
 # Crash Cushion

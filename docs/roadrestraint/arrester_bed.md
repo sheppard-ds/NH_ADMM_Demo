@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Arrester Bed
-nav_order: 1
 parent: Vehicle Restraint
 grand_parent: Road Restraint
+nav_order: 1
 ---
 
 # Arrester Bed

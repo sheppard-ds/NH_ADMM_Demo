@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Vehicle Restraint
-nav_order: 1
 parent: Road Restraint
+nav_order: 1
 has_children: true
 ---
 
